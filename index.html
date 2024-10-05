@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Just Do It</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Just Do It</h1>
+            <div class="input-section">
+                <input id="task-input" type="text" placeholder="📒 What do you want to accomplish?"
+                    class="input w-full max-w-xs" />
+                <input id="time-input" type="time" class="input time-input" />
+                <button id="add-task-button" class="btn btn-add">
+                    <i class="bx bx-plus bx-sm"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="todos-filter">
+            <button id="delete-selected-tasks" class="btn btn-error">Delete Selected</button>
+            <button id="delete-all-tasks" class="btn btn-error">Clear All</button>
+        </div>
+
+        <ul id="all-tasks" class="todos-list"></ul>
+
+        <div class="filters">
+            <div class="dropdown">
+                <button class="dropbtn">Filter Tasks</button>
+                <div class="dropdown-content">
+                    <a href="#" id="view-all">All</a>
+                    <a href="#" id="view-remaining">Pending</a>
+                    <a href="#" id="view-completed">Completed</a>
+                </div>
+            </div>
+
+            <div class="task-count">
+                <p>Completed: <span id="completed-count">0</span></p>
+                <p>Total Tasks: <span id="total-count">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
