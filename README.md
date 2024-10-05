@@ -49,6 +49,7 @@ To run this project locally, follow these steps:
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or features, feel free to open an issue or submit a pull request.
-Demo: https://just-do-it-nu.vercel.app/
+## Demo
+https://just-do-it-nu.vercel.app/
 ![Image](https://cdn.discordapp.com/attachments/970067556348100619/1292087802418430005/image.png?ex=67027609&is=67012489&hm=2bc163e06820c40c3608697b42718ad41c1e279a3598413f2484b17b0ba7389c&)
 
